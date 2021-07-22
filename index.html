@@ -9,11 +9,28 @@
     <title>Reuniones</title>
 </head>
 <body>
-    <header class="p-3 mb-2 bg-dark text-white text-center fixed-top ">
-        <h3>Congregación Frontera</h3>
-    </header>
-    <main>
-        <div class="container primerbtn" >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " >
+        <a class="navbar-brand" href="#">Congregación Frontera</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#ingresar">Ingresar a una reunión <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#horarios">Horarios de predicación</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#compartir">Compartir reunión</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+    <main class='pt-5'  id='ingresar'>
+        <div class="container primerbtn mt-5" >
 
             <a target="_blank" href="https://jworg.zoom.us/j/85362520780?pwd=VThLb0ZhNXN4MTI3VVJsbGtLYlpDQT09" class="btn btn-warning btn-lg">Reunión del miercoles</a>
             <h5 class="mt-1">-20hs-</h5>
@@ -37,7 +54,7 @@
     </main>
 
     
-    <section class="horarios">
+    <section class="horarios" id="horarios">
         <h3 class='text-center pt-3 mb-3'>Horarios de predicación</h3>
         <table class="table table-dark text-center">
             <thead>
@@ -87,7 +104,7 @@
               </tr>
             </tbody>
           </table>
-         <section class="compartir">
+         <section class="compartir" id="compartir">
              <h3 class='text-center mt-5 mb-5'>Enlaces para compartir:</h3>
 
              <div class="container" >
