@@ -26,17 +26,6 @@ main{
 
 }
 
-.linkShare:hover{
-    width: 100%;
-    padding: 10px;
-    background: #ffc107;
-    text-decoration: none;
-    color: #191f1a;
-    font-weight: 400;
-    border-radius:5px;
-    font-size: 20px;
-
-}
 
 .linkShare img{
     margin-bottom: 5px;
