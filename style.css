@@ -12,10 +12,7 @@ div{
     justify-content: center;
     align-items: center;
 }
-
-div a{
-    margin-bottom: 40px;
-    width: 70%;
-    font-size: 70px;
-    padding: 3em;
+.container{
+    margin-bottom: 10px;
+    
 }
