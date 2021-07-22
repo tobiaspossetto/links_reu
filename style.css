@@ -15,21 +15,6 @@ main{
     
 }
 
-.header{
-    width: 100%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-bottom: 10px;
-    background: #343a40;
-    padding: 10px;
-}
-.header h2{
-    color:white;
-    font-weight: 500;
-    font-size: 30px;
-    text-align: center;
-}
 
 
 
