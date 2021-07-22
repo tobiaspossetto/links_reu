@@ -24,7 +24,7 @@ main{
     background: #343a40;
     padding: 10px;
 }
-header h2{
+.header h2{
     color:white;
     font-weight: 500;
     font-size: 30px;
